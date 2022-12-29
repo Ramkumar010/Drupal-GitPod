@@ -1,5 +1,4 @@
 def sum_of_two_largest(array):
-    if len(array)>1:
         
         max1=array[0]
         max2=array[1]
@@ -11,6 +10,4 @@ def sum_of_two_largest(array):
                 max2=i 
         total=max1+max2
         return (total)
-    else:
-        return("Number of elements in array should be more than one.")
-print (sum_of_two_largest([10,20]))
+print (sum_of_two_largest([10,20,30,40,50]))
